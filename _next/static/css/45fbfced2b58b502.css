@@ -1,0 +1,64 @@
+.Avatar_container__1T87Y {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: #fff;
+    align-self: center;
+    justify-self: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%
+}
+
+.Avatar_container__1T87Y .Avatar_avatar__ZQ7ks {
+    width: inherit;
+    height: inherit;
+    fill: #c1c7d4
+}
+
+.Avatar_container__1T87Y img {
+    width: 40px
+}
+
+.UserDropdown_container__vFFb5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px
+}
+
+.UserDropdown_container__vFFb5 a {
+    text-decoration: none
+}
+
+.UserDropdown_container__vFFb5 .UserDropdown_profileDropdownTrigger__6daD1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+}
+
+@media only screen and (max-width:667px) {
+    .UserDropdown_container__vFFb5 .UserDropdown_profileDropdownTrigger__6daD1 {
+        padding: 0 10px
+    }
+}
+
+.UserDropdown_container__vFFb5 .UserDropdown_profileDropdownTrigger__6daD1 .UserDropdown_profileName__k_cPz {
+    font-size: 14px;
+    color: #fff;
+    margin-left: 10px
+}
+
+@media only screen and (max-width:667px) {
+    .UserDropdown_container__vFFb5 .UserDropdown_profileDropdownTrigger__6daD1 .UserDropdown_profileName__k_cPz {
+        display: none
+    }
+}
+
+.UserDropdown_container__vFFb5 .UserDropdown_profileDropdownTrigger__6daD1 .UserDropdown_profileName__k_cPz:hover {
+    text-decoration: none;
+    transition: color .9s ease;
+    color: #cc5e5e !important
+}

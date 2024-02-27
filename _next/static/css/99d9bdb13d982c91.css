@@ -1,0 +1,109 @@
+.WhatIsNolanSection_container__ECI46 {
+    color: #f5f2f0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-image: url(/images/hero-img-landing-vid\ copy.webp);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: 50%
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM {
+    padding: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM .WhatIsNolanSection_leftBlock__iCLaN {
+    max-width: 50%;
+    padding-left: 8px;
+    padding-right: 8px;
+    line-height: 2
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM h2,
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM h3 {
+    margin: 0 !important
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM h2 {
+    font-size: 32px;
+    font-weight: 200;
+    color: hsla(0, 0%, 100%, .96);
+    font-family: var(--lexen_deca), sans-serif
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM h3 {
+    font-size: 64px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, .96);
+    font-family: var(--lexen_deca), sans-serif;
+    line-height: 1
+}
+
+@media only screen and (max-width:667px) {
+    .WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM h3 {
+        font-size: 32px
+    }
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM .WhatIsNolanSection_description__BMslR {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    word-break: break-word;
+    font-family: var(--lexen_deca), sans-serif
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM iframe {
+    width: 90%;
+    height: 315px
+}
+
+@media only screen and (max-width:990px) {
+    .WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM iframe {
+        width: 100%
+    }
+    .WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM {
+        padding: 64px 10px
+    }
+}
+
+@media only screen and (max-width:667px) {
+    .WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM {
+        margin-left: 0 !important;
+        margin-right: 0 !important
+    }
+}
+
+.WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM .WhatIsNolanSection_videoFrameWrapper__h88Cn {
+    position: relative;
+    width: 90%;
+    height: 315px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    cursor: pointer;
+    margin-left: 8%
+}
+
+@media only screen and (max-width:1024px) {
+    .WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM {
+        flex-direction: column
+    }
+    .WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM .WhatIsNolanSection_leftBlock__iCLaN {
+        max-width: 100%
+    }
+    .WhatIsNolanSection_container__ECI46 .WhatIsNolanSection_content__cSubM .WhatIsNolanSection_videoFrameWrapper__h88Cn {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 0
+    }
+}
